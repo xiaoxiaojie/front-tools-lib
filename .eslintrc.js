@@ -1,14 +1,14 @@
+// TODO
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
+    node: true
   },
-  extends: [
-    'standard'
-  ],
+  extends: ['prettier', 'eslint:recommended'],
   parserOptions: {
-    ecmaVersion: 'latest'
+    ecmaVersion: 'latest',
+    sourceType: 'module'
   },
-  rules: {
-  }
+  rules: {}
 }
