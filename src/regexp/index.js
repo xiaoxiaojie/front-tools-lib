@@ -3,11 +3,6 @@ import regexpPublic from './regexpPublic'
 
 
 
-
-
-
-
-
 export default {
   platforms,
   regexpPublic
